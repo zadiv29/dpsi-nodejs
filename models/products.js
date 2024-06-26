@@ -13,10 +13,6 @@ const Product = sequelize.define('Product', {
         type: DataTypes.STRING,
         allowNull: false
     },
-    supplierID: {
-        type: DataTypes.INTEGER,
-        allowNull: false
-    },
     categoryID: {
         type: DataTypes.INTEGER,
         allowNull: false,
